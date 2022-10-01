@@ -28,12 +28,6 @@ VisDA2017
 python train.py --dst visda --source train_list --target val_sub_list --lr 0.1 --loop-way zip  --epochs 200
 ```
 
-## Acknowledgement
-
-Our code refer the code at: https://github.com/thuml/MDD.
-
-We thank the authors for open sourcing their code.
-
 ## Citation
 
 If you use this code for your research, please consider citing:
@@ -41,6 +35,13 @@ If you use this code for your research, please consider citing:
 ```
 
 ```
+
+## Acknowledgement
+
+Our code refer the code at: https://github.com/thuml/MDD.
+
+We thank the authors for open sourcing their code.
+
 
 ## Contact
 
