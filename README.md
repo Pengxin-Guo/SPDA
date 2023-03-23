@@ -1,5 +1,7 @@
 # Selective Partial Domain Adaptation
 
+This is the official Pytorch implementation of [Selective Partial Domain Adaptation](https://bmvc2022.mpi-inf.mpg.de/420/).
+
 ## Prerequisites
 
 - Python3
@@ -33,7 +35,14 @@ python train.py --dst visda --source train_list --target val_sub_list --lr 0.1 -
 If you use this code for your research, please consider citing:
 
 ```
-
+@article{guo2022selective,
+  title={Selective Partial Domain Adaptation},
+  author={Guo, Pengxin and Zhu, Jinjing and Zhang, Yu},
+  booktitle={33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+  publisher={{BMVA} Press},
+  year={2022},
+  url={https://bmvc2022.mpi-inf.mpg.de/0420.pdf}
+}
 ```
 
 ## Acknowledgement
